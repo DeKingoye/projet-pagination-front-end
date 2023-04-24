@@ -89,7 +89,7 @@ th span {
 }
 
 th:hover {
-  background-color: #f2f2f2;
+  background-color: #1d70ed;
 }
 
 tr:nth-child(even) {
