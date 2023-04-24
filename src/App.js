@@ -52,30 +52,30 @@ function App() {
 
   return (
     <><header>
-      <h1>Pagination</h1>
+      <h1>Projet Pagination Bernard MOUANDZA MT4</h1>
     </header><div>
         {loading ? (
-          <p>Loading movies...</p>
+          <p>En cours de téléchargement veuillez attendre...</p>
         ) : error ? (
-          <p>Error loading movies: {error}</p>
+          <p>Désolé nous ne pouvons pas vous repondre: {error}</p>
         ) : (
           <table>
             <thead>
               <tr>
                 <th onClick={() => handleSort("title")}>
-                  Title {sort.column === "title" && <span>{sort.direction === "asc" ? "▲" : "▼"}</span>}
+                  Titre {sort.column === "title" && <span>{sort.direction === "asc" ? "▲" : "▼"}</span>}
                 </th>
                 <th>
-                  Rental Rate {sort.column === "rental_rate" && <span>{sort.direction === "asc" ? "▲" : "▼"}</span>}
+                  Prix de location{sort.column === "rental_rate" && <span>{sort.direction === "asc" ? "▲" : "▼"}</span>}
                 </th>
                 <th>
-                  Rating {sort.column === "rating" && <span>{sort.direction === "asc" ? "▲" : "▼"}</span>}
+                  Note {sort.column === "rating" && <span>{sort.direction === "asc" ? "▲" : "▼"}</span>}
                 </th>
                 <th onClick={() => handleSort("name")}>
                   Genre {sort.column === "name" && <span>{sort.direction === "asc" ? "▲" : "▼"}</span>}
                 </th>
                 <th onClick={() => handleSort("rental_count")}>
-                  Rental Count {sort.column === "rental_count" && <span>{sort.direction === "asc" ? "▲" : "▼"}</span>}
+                  Nombre de Locations {sort.column === "rental_count" && <span>{sort.direction === "asc" ? "▲" : "▼"}</span>}
                 </th>
               </tr>
             </thead>

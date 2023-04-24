@@ -29,9 +29,9 @@ code {
 }
 
 .page-navigation button {
-  border: 1px solid#ccc;
+  border: 1px solid#e36c6c;
   border-radius: 5px;
-  background-color: white;
+  background-color: rgb(204, 24, 24);
   color:black;
   padding: 5px 10px;
   margin: 0 5px;
