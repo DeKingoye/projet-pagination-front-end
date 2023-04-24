@@ -93,12 +93,12 @@ function App() {
           </table>
         )}
         <div className="bottom">
-          <span>Nombre de resultats: {totalResults}</span>
+          <span>resultat total: {totalResults}</span>
           <span> Nombre de lignes par page <input type="number" min={10} onChange={handleMoviePerpages} value={moviesPerPage} /></span>
         </div>
         <Pagination totalPages={totalPages} currentPage={currentPage} onPageChange={handlePageChange} />
       </div><footer>
-        <p>Projet pagination Backend HETIC-2023</p>
+        <p> Bernard Yann Ordian MOUANDZA </p>
       </footer></>
   );
 }
