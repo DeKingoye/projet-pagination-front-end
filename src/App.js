@@ -87,15 +87,14 @@ function App() {
               ))}
             </tbody>
           </table>
-          
+
         <div className="bottom">
           <span>resultat total: {totalResults}</span>
           <span> Nombre de lignes par page <input type="number" min={10} onChange={handleMoviePerpages} value={moviesPerPage} /></span>
         </div>
         <Pagination totalPages={totalPages} currentPage={currentPage} onPageChange={handlePageChange} />
-      </div><footer>
-        <p> Bernard Yann Ordian MOUANDZA </p>
-      </footer></>
+      </div>
+    </>
   );
 }
 
