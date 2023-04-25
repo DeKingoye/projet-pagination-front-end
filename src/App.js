@@ -54,11 +54,7 @@ function App() {
     <><header>
       <h1>Projet Pagination Bernard MOUANDZA MT4</h1>
     </header><div>
-        {loading ? (
-          <p>En cours de téléchargement veuillez attendre...</p>
-        ) : error ? (
-          <p>Désolé nous ne pouvons pas vous repondre: {error}</p>
-        ) : (
+
           <table>
             <thead>
               <tr>
@@ -91,7 +87,7 @@ function App() {
               ))}
             </tbody>
           </table>
-        )}
+          
         <div className="bottom">
           <span>resultat total: {totalResults}</span>
           <span> Nombre de lignes par page <input type="number" min={10} onChange={handleMoviePerpages} value={moviesPerPage} /></span>

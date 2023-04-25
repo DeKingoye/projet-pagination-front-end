@@ -96,7 +96,7 @@ tr:nth-child(even) {
   background-color: #f2f2f2;
 }
 header, footer {
-  background-color: #da1b1b;
+  background-color: white;
   padding: 20px;
   display: flex;
   align-items: center;
