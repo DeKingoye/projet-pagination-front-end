@@ -31,7 +31,7 @@ code {
 .page-navigation button {
   border: 1px solid#e36c6c;
   border-radius: 5px;
-  background-color: rgb(204, 24, 24);
+  background-color: rgb(201, 134, 134);
   color:rgb(226, 212, 212);
   padding: 5px 10px;
   margin: 0 5px;
@@ -89,7 +89,7 @@ th span {
 }
 
 th:hover {
-  background-color: #1d70ed;
+  background-color: hsl(215, 52%, 63%);
 }
 
 tr:nth-child(even) {
