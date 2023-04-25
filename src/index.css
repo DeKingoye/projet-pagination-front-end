@@ -32,7 +32,7 @@ code {
   border: 1px solid#e36c6c;
   border-radius: 5px;
   background-color: rgb(204, 24, 24);
-  color:black;
+  color:rgb(226, 212, 212);
   padding: 5px 10px;
   margin: 0 5px;
   cursor: pointer;
@@ -74,9 +74,9 @@ table {
 }
 
 th, td {
-  padding: 10px;
+  padding: 16px;
   text-align: left;
-  border: 1px solid #ccc;
+  border: 3px solid #ccc;
 }
 
 th {
