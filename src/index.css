@@ -90,7 +90,7 @@ th span {
 }
 
 th:hover {
-  background-color: hsl(215, 52%, 63%);
+  background-color: hsl(216, 55%, 20%);
 }
 
 tr:nth-child(even) {
@@ -98,7 +98,7 @@ tr:nth-child(even) {
 }
 header, footer {
   background-color: white;
-  padding: 20px;
+  padding: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
