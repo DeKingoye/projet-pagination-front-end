@@ -96,8 +96,10 @@ th:hover {
 tr:nth-child(even) {
   background-color: #f2f2f2;
 }
+
 header, footer {
-  background-color: white;
+  background-color: rgb(12, 12, 12);
+  color: white;
   padding: 10px;
   display: flex;
   align-items: center;
